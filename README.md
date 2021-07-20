@@ -37,11 +37,10 @@ void Time::displayTime(void)
  
 int main()
 {
-    Time T; //creating objects
+   Time T; //creating objects
      
-    T.getTime();
-    T.convertIntoSeconds();
-    T.displayTime();
-     
-    return 0;
+  T.getTime();
+  T.convertIntoSeconds();
+  T.displayTime();
+     return 0;
 }
